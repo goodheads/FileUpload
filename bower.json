@@ -1,0 +1,24 @@
+{
+  "name": "FileUpload",
+  "version": "0.0.0",
+  "main": "app.js",
+  "authors": [
+    "seyi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-file-upload": "git@github.com:danialfarid/angular-file-upload.git#3.2.4"
+  },
+  "resolutions": {
+    "angular": "~1.4.0"
+  }
+}

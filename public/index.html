@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="fileUploadApp">
+
+<head>
+  <title>Upload</title>
+  <!-- SCRIPTS -->
+  <script type="text/javascript" src="/bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="/bower_components/angular-route/angular-route.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+
+  <script type="text/javascript" src="js/controllers/upload.controller.js"></script>
+  <!-- for no html5 browsers support -->
+  <script type="text/javascript" src="/bower_components/angular-file-upload/dist/angular-file-upload-shim.js"></script>
+  <script type="text/javascript" src="/bower_components/angular-file-upload/dist/angular-file-upload.js"></script>
+</head>
+
+<body ng-controller="MainController">
+  <a href="#uploadFile">Upload File</a>
+  <div ng-view></div>
+</body>
+
+</html>
